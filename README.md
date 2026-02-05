@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+VoiceCare — Voice-First Pharmacy for Seniors
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: https://voicecare-nine.vercel.app/
 
-Currently, two official plugins are available:
+VoiceCare is a modern voice-enabled pharmacy e-commerce platform designed to help seniors shop safely and independently using intelligent voice assistance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The platform prioritizes accessibility, safety, and simplicity, reducing the complexity of traditional online shopping for elderly users while enabling caregivers to monitor and support purchases.
 
-## Expanding the ESLint configuration
+Key Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Voice-First Shopping — Order medicines using natural voice commands
 
-- Configure the top-level `parserOptions` property like this:
+AI-Powered Assistance — Context-aware recommendations for safer purchases
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
+Caregiver Dashboard — Monitor orders and detect unusual activity
+
+Secure Authentication — Protected user data and transactions
+
+Smart Medicine Store — Trusted medicines and health devices
+
+Accessible UI — Large typography and senior-friendly design
+
+Tech Stack
+
+Frontend: React, TypeScript, Tailwind CSS
+Build Tool: Vite
+Deployment: Vercel
+
+Vision
+
+VoiceCare aims to restore independence for seniors by transforming digital commerce into a natural, voice-driven experience — making healthcare shopping safer, faster, and more inclusive.
+
+Getting Started (Local Setup)
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+git clone https://github.com/Nithin-Bhargav-07/Voice-assistant.git
+cd Voice-assistant
+npm install
+npm run dev
